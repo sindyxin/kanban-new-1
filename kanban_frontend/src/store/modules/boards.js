@@ -52,7 +52,7 @@ const mutations = {
     state.boardIDs.push(boardID)
   },
   [ADD_BOARD] (state, board) {
-    state.board[board.id] = board
+    state.boards.push(board)
   },
   [SET_BOARDS] (state, boards) {
     Vue.set(state, 'boards', boards)

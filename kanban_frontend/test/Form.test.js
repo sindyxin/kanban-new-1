@@ -2,7 +2,8 @@
 
   
 import { shallowMount } from '@vue/test-utils'
-import Form from '../src/components/Form'
+import Form from '@/components/Form'
+// import Form from '../src/components/Form'
 import axios from 'axios' // axios here is the mock from above!
 
 describe('Form.test.js', () => {

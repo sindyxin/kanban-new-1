@@ -27,7 +27,7 @@
   </div>
 </template>
 <script>
-import Form from './components/Form'
+import Form from '@/components/Form'
 export default {
   name: 'App',
   data () {
